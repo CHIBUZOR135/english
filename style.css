@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:peachpuff;
+
+}
+.class{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+ justify-content: center;
+ align-content: space-between;
+}
+.class img{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+ 
+}
+.gala{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius:30px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 5px solid white;
+width: 100%;
+padding: 40px 40px;
+}
+.gala>h5{
+  background-color: white;
+  padding: 5px 10px;
+    color: antiquewhite;
+font-weight: lighter;
+}
+.gala h1{
+    font-weight:bolder;
+    background-color: white;
+    font-size: 3rem;
+}
+.lass{
+    display: flex;
+    flex-direction: row;
+   background-color: white;
+}
+.lass h1{
+    color: seagreen;
+ font-weight: bolder;
+ font-size: 4rem;
+}
+.lass s{
+    padding: 5px 5px;
+    background-color: white;
+    
+}
+.glass{
+    display: flex;
+    flex-direction: row;
+position: relative;
+background-color: white;
+}
+.glass img{
+margin-left: 40px;
+margin-top: 9px;
+    position: absolute;
+    background-color: seagreen;
+}
+.glass button{
+    width: 200px;
+    height: 50px;
+    background-color: seagreen;
+    color: white;
+    text-align: center;
+ 
+}
+.gala>h5{
+    font-size: 3rem;
+}
+.aria h5{
+    background-color: white;
+    padding: 5px 10px;
+      color: antiquewhite;
+  font-weight: lighter; 
+  font-size: 1.9rem;
+}
+@media  screen and (max-width:480px) {
+  body{
+    padding: 40px 50px;
+    margin: 0;
+
+    justify-content: center;
+  }  
+.class{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -5px;
+ margin-left: 2px;
+    width: 100%;
+   
+ 
+}
+.class img{
+    width: 100%;
+border-radius: 0px;
+}
+ 
+.gala{
+    width: 100%;
+   border-radius: 0px;
+}
+.glass img{
+    width: 30px;
+ margin-left: 30px;
+}
+.lass h1{
+    font-size: 2rem;
+}
+}
+@media (min-width:481px) and (max-width:768px) {
+    body{
+        padding: 0;
+        margin: 0;
+ 
+        justify-content: center;
+        border-radius: 0px;
+      } 
+      .class{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: -5px;
+     margin-left: 2px;
+        width: 100%;
+    
+      } 
+    .class img{
+        width: 100%;
+    border-radius: 0px;
+    }
+    .gala{
+        display: flex;
+        flex-direction: column;
+     align-items: center;
+border-radius: 0px;
+        width: 100%;
+ }
+    .glass img{
+        width: 30px;
+     margin-left: 30px;
+    }
+}
